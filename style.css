@@ -1,0 +1,91 @@
+User
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipMstyLcVNwphDY8-waqc257Vh9c0mxssvJz2Sl-=s1360-w1360-h1020'); 
+  background-size:cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh
+}
+
+.logo {
+  max-width: 5%;
+  height: auto; 
+  align-items:start;
+}
+
+ 
+ header {
+  background:linear-gradient(to right, #000101, #272b2b);
+  color: #ffffff; 
+  padding: 0.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: inline-flex;
+  justify-content:center; 
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.card-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 100px; 
+  margin-left: 100px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  margin: 0;
+}
+
+footer {
+  background:linear-gradient(to right, #000101, #272b2b);
+  color: #ffffff; 
+  padding: 0.01px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: inline-flex;
+  justify-content:center; 
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
