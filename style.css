@@ -46,13 +46,6 @@ body {
 
 }
 
-@media only screen and (max-width: 480px) {
-  /* CSS rules for screens less than or equal to 480px wide */
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 .card {
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
